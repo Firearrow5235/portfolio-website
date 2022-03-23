@@ -11,10 +11,11 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "client": "yarn workspace @my-app/client",
-    "common": "yarn workspace @my-app/common",
-    "server": "yarn workspace @my-app/server",
+    "client": "yarn workspace @portfolio/client",
+    "common": "yarn workspace @portfolio/common",
+    "server": "yarn workspace @portfolio/server",
     "dev": "yarn client dev & yarn server dev --verbose",
-    "start": "yarn server start"
+    "start": "yarn server start",
+    "build": "yarn server build && yarn common build && yarn client build"
   }
 }
