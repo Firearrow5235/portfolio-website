@@ -1,6 +1,8 @@
-import React , { useState } from 'react';
-import Header from './sections/Header';
+import { useEffect } from 'react'
 import './App.css';
+import Header from './sections/Header';
+import About from './sections/About';
+import { App_Name } from '@portfolio/common'
 
 export default function App() {
   // const [apiResponse, setApiResponse] = useState("");
@@ -19,9 +21,16 @@ export default function App() {
   //   }
   // }
 
+  useEffect(() => {
+    document.title = App_Name
+  })
+
   return (
     <div className="App">
       <Header />
+      <main>
+        <About />
+      </main>
     </div>
   );
 }

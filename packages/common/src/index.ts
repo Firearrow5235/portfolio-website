@@ -1,1 +1,1 @@
-export const App_Name = "Gavyn Leavitt Portfolio";
+export const App_Name = "Gavyn Leavitt - Portfolio";

@@ -21,7 +21,7 @@ const Header: FC = () => {
 
   return (
     <AppBar position='static' color='primary'>
-      <Container maxWidth='xl'>
+      <Container maxWidth='lg'>
         <Toolbar>
           <Typography variant='h4' color='textPrimary' align='left' className={classes.title}>
             Gavyn Leavitt

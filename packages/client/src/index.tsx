@@ -4,7 +4,6 @@ import App from './components/app/App';
 import { ThemeProvider, createTheme } from '@material-ui/core';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import { orange } from '@material-ui/core/colors';
 
 const theme = createTheme({
   palette: {
